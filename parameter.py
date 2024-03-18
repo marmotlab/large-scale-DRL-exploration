@@ -1,0 +1,21 @@
+REPLAY_SIZE = 2500
+MINIMUM_BUFFER_SIZE = 1000
+BATCH_SIZE = 64
+INPUT_DIM = 4
+EMBEDDING_DIM = 128
+NODE_PADDING_SIZE = 360
+K_SIZE = 20
+
+USE_GPU = False
+USE_GPU_GLOBAL = True
+NUM_META_AGENT = 16
+LR = 1e-5
+GAMMA = 1
+DECAY_STEP = 256
+SUMMARY_WINDOW = 32
+FOLDER_NAME = 'ae_ground_truth_critic'
+model_path = f'model/{FOLDER_NAME}'
+train_path = f'train/{FOLDER_NAME}'
+gifs_path = f'gifs/{FOLDER_NAME}'
+LOAD_MODEL = False
+SAVE_IMG_GAP = 100
